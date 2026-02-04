@@ -1,4 +1,4 @@
-// frida -p $(pidof com.mediatek.engineermode) -l ga.js
+// frida -p $(pidof com.mediatek.engineermode) -l wlash_bang.js
 
 var libName = "libem_wifi_jni.so";
 var hijackedEnv = null;
